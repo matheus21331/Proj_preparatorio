@@ -1,0 +1,278 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+
+
+}
+/*menu begin*/
+.menu-top ul li{
+
+    list-style: none;
+    display: inline-block;
+    font-style: 12px;
+    color:#484847;
+
+}
+.menu-link li a{
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: #484847;
+}
+.menu-link li:hover{
+    padding: 3px;
+    background-color: lightgray;
+
+}
+ .links{
+    padding-left: 820px;
+    display: inline-block;
+    float: right;
+   
+    
+}
+.menu-lang  ul{
+    position:absolute; 
+    display: none;
+    background-color:#fff; 
+}
+ .menu-lang:hover ul{
+    display: block;
+}
+.menu-lang ul li {
+    border:1px solid #c0c0c0; 
+    display:block; 
+    width:150px;
+}
+
+/* MENU DO HEADER */
+.lists{
+    right: 72px;
+}
+
+nav.menu ul {
+    margin-top:20px; 
+    padding: 0;
+    
+}
+nav.menu ul li {
+   
+    display: inline-block;  
+    margin-right: 10px;
+}
+nav.menu ul li a {
+    text-decoration: none;
+    color:#6c757d;
+    font-size: 13px;  
+    font-weight: bold;
+    list-style: none;
+}
+.search-bar{
+    padding-left: 15px;
+  }  
+.logo{
+    text-indent: -99999em;
+    background: url("../images/DIG-0006-18-PERTO-HOME-LY_03.jpg")no-repeat;
+    margin:10px 0px;
+}
+nav.menu li:hover{
+    text-align: center;
+    padding: 3px;
+    background-color: lightgray;
+}
+
+/*MENU NEWS*/
+.content-news {
+    width: 100%;
+    background: #f9f9f9;
+    align-content: center;
+}
+.news-box div:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.news-box:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    }
+figure {
+    background: #f9f9f9;
+    align-content: center;
+}
+.materia-foto {
+    margin-bottom: 1px;
+    margin-top: 7px;
+    padding-right: 0px;
+
+}
+.container-news h3{
+    padding-right: 8px;
+    font-size: 38px;
+    color: #d1dbea;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.container-news p{
+    padding-top: 4px;
+}
+
+}
+.container-news {
+    align-items: center;
+
+}
+.container-load{
+    font-style: italic;
+    font-color:grey;
+    font-weight: 13px;
+    text-align: center;
+}
+
+
+ .content-news {
+    margin-bottom: 20px;
+    min-height: 130px;
+ }
+.row-news {
+    display: flex;
+    flex-wrap:nowrap;
+    border-bottom: 2px lightblue solid;
+}
+.row-news span{
+    font-weight: bold;
+    font-size: 11px;
+}
+.content-news h3 {
+    font-size: 13px;
+    font-weight:bold;
+    color: black;
+}
+.content-news p{
+
+    color: #484847;
+}
+.content-news a{
+    color: black;
+    font-size:13px;
+    text-decoration:none; 
+}
+.load {
+    background: transparent;
+    border: solid 1px #ccc;
+    width: 100%;
+    padding: 5px 0;
+    color: #ccc;
+    margin: 25px 0;
+    cursor: pointer;
+}
+.load:hover {
+    background-color: gray;
+}
+
+
+
+/*NEWSLETTER RODAPE*/
+.bg-newsletter {
+    width: 100%;
+    height: 165px;
+    background: url("../images/DIG-0006-18-PERTO-HOME-LY_25.png") no-repeat;
+}
+.email{
+    font-weight: bold;
+    color: white;
+    padding-top: 35px;
+}
+.email-p{
+    font-weight: bold;
+    color: white;
+    padding-top: 12px;
+}
+.form-newsletter .eml-input{
+    padding-top: 60px;
+}
+
+.form-newsletter label {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+}
+
+.form-newsletter .email-input {
+    background: transparent;
+    border: 0;
+    width: 365px;
+    border-bottom: solid 1px white;
+    color: white;
+    outline: 0;
+}
+
+.form-newsletter .btn-send-register {
+    align-content: center;
+    background: white;
+    color: #005ba9;
+    text-transform: uppercase;
+    padding: 2px 50px;
+    font-size: 12px;
+    border: 0;
+    font-weight: 700;
+    margin-left: -5px;
+}
+
+/*menu do foooter */
+
+.menu-foot ul a{
+    text-decoration: none;
+    line-height: 22px;
+    color:#484847;
+  
+
+}
+.menu-foot ul{
+     font-weight: 100px;
+    list-style: none;
+}
+.menu-left-1{
+    padding-left: 10px;
+    display:block;
+    float: left;
+}
+.menu-left-2{
+    padding-right:110px;
+    display:block;
+    float: right;
+}
+.menu-foot h3{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-weight: 10;
+}
+.menu-center-1{
+    padding-left: 10px;
+    padding-right: 35px;
+    display:block;
+    float: left;
+}
+.menu-center-2{
+    
+    display:block;
+    float: right;
+}
+.menu-right-1{
+    padding-left: 56px;
+    padding-right: 4px;
+    display:block;
+    float: left;
+ 
+}
+.menu-right-2{
+    
+    display:block;
+    float: right;
+}
+.barrr{
+    padding:2px;
+}
+

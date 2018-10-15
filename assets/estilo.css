@@ -1,0 +1,24 @@
+@charset "UTF-8"
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    color: white;
+    padding: 7px 200px 0px 0px;
+    position: absolute;
+    top:10px;
+    left: -200px;
+}
+figure.logo-pequeno img{
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+nav#menu li {
+    display: inline-block;
+   }
+.logo {
+    padding-left: 999999px;
+    background-image: url("../images/DIG-0006-18-PERTO-HOME-LY_03.jpg");
+}
+
