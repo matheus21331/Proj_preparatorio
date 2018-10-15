@@ -6,16 +6,17 @@ body {
 }
 /*menu begin*/
 .menu-top ul li{
-
+    padding: 6px;
     list-style: none;
     display: inline-block;
     font-style: 12px;
     color:#484847;
-
 }
+
 .menu-link li a{
+    margin: 2px;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
     display: block;
     color: #484847;
 }
@@ -23,12 +24,7 @@ body {
     padding: 3px;
     background-color: lightgray;
 
-}
- .links{
-    padding-left: 820px;
-    display: inline-block;
-    float: right;
-   
+}  
     
 }
 .menu-lang  ul{
@@ -67,6 +63,8 @@ nav.menu ul li a {
     font-weight: bold;
     list-style: none;
 }
+
+
 .search-bar{
     padding-left: 15px;
   }  
@@ -87,11 +85,9 @@ nav.menu li:hover{
     background: #f9f9f9;
     align-content: center;
 }
+
+
 .news-box div:hover{
-    background-color: lightgray;
-    cursor: pointer;
-}
-.news-box:hover{
     background-color: lightgray;
     cursor: pointer;
     }
@@ -129,7 +125,9 @@ figure {
     text-align: center;
 }
 
-
+.news-box {
+    padding: 0px;
+}
  .content-news {
     margin-bottom: 20px;
     min-height: 130px;
@@ -139,11 +137,17 @@ figure {
     flex-wrap:nowrap;
     border-bottom: 2px lightblue solid;
 }
+.row-news:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+
+}
 .row-news span{
     font-weight: bold;
     font-size: 11px;
 }
 .content-news h3 {
+    padding: 5px 4px 5px 0px;
     font-size: 13px;
     font-weight:bold;
     color: black;
@@ -186,7 +190,7 @@ figure {
 .email-p{
     font-weight: bold;
     color: white;
-    padding-top: 12px;
+    padding-top: 16px;
 }
 .form-newsletter .eml-input{
     padding-top: 60px;
@@ -224,13 +228,13 @@ figure {
 
 .menu-foot ul a{
     text-decoration: none;
-    line-height: 22px;
+    line-height: 19px;
     color:#484847;
   
 
 }
 .menu-foot ul{
-     font-weight: 100px;
+
     list-style: none;
 }
 .menu-left-1{
@@ -245,7 +249,7 @@ figure {
 }
 .menu-foot h3{
     padding-left: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 4px;
     font-size: 21px;
     font-weight: 10;
 }
@@ -275,4 +279,6 @@ figure {
 .barrr{
     padding:2px;
 }
+
+
 
