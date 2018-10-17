@@ -134,7 +134,7 @@
                         <figure class="materia-foto">
                             <img src="assets/images/news.jpg" alt="materia 5" class="img-fluid">
                         </figure>
-                        <div class="content-news">
+                        <div class="content-news">git
                             <h3>Perto|Serviços</h3>
                             <p >Soluções Digitais são destaques<br> da Perto no CIAB 2017.</p>
                             <p><a  href="index.html">Leia mais>></a></p>
@@ -167,7 +167,6 @@
                                 </div>
                             </div>
                         </div>         
-                        </div>
                     </div>
                 </div>                  
              </div>
@@ -175,7 +174,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <button class="load" >carregar mais</button>
+                            <button class="load" >Carregar mais matérias</button>
                         </div>    
                     </div>       
                 </div>        

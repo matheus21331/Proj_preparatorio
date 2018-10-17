@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
+
 title{
     text-align: center;
 }
@@ -10,7 +11,7 @@ title{
     padding: 6px;
     list-style: none;
     display: inline-block;
-    font-style: 12px;
+    font-size:12px;
     color:#c4c4c4;
 }
 
@@ -20,67 +21,78 @@ title{
 }
 
 .menu-link li a{
-    margin: 2px;
+   padding: 10px 15px;
     text-decoration: none;
     padding: 0px;
     display: block;
-    color: #c4c4c4;
+    color:#b9b9b9;
+    font-weight: bold;
+    font-size: 12px;
 }
+
 .menu-link li:hover{
     padding: 3px;
-    background-color: lightgray;
-
+    background-color: rgba(227, 227, 227, 0.2);
 }  
+
 .links{    
     padding-left: 734px;
     display: inline-block;
     float: right;
     margin: 0;
-
 }
+
 .links-2{    
     position: absolute;
     display: inline-block;
-    
     margin: 0;
-
 }
+
 .menu-lang  ul{
     position:absolute; 
     display: none;
     background-color:#fff; 
+}
+.menu-lang-2 a{
+    top: 1px;
+    font-size: 13px;
+    right: 2px;
 }
 .menu-lang-2  ul{
     position:absolute; 
     display: none;
     background-color:#fff; 
 }
- .menu-lang:hover ul{
+
+ .menu-lang:hover ul, .menu-lang li.over ul{
     display: block;
 }
-.menu-lang-2:hover ul{
+
+.menu-lang-2:hover ul, .menu-lang-2 li.over ul{
     display: block;
-
-
+    z-index: 10;
+    background-color: rgba(227, 227, 227, 0.2)
 }
+
 .menu-lang ul li {
     border:1px solid #c0c0c0; 
     display:block; 
     width:150px;
 }
+
 .adjusts{
     padding-left: 47px;
     padding-bottom:0px;
 }
+
 .menu-lang-2 ul li {
     background-color: #cbd0d4;
     padding: 15px 20px;
-    color: #484847;
-    
+    color: #484847;    
     display:block; 
     width:150px;
-    
 }
+
 /* MENU DO HEADER */
 .lists{
     right: 72px;
@@ -88,32 +100,43 @@ title{
 
 nav.menu ul {
     margin-top:14px; 
-    padding: 0;
-    
+    padding: 0;    
 }
-nav.menu ul li {
-   
+
+nav.menu ul li {   
     display: inline-block;  
     margin-right: 8px;
 }
+
 nav.menu ul li a {
     position: relative;
     text-decoration: none;
     color:#6c757d;
-    font-size: 14px;  
-    font-weight:600px;
+    font-size: 13px;  
+    font-weight:600;
     list-style: none;
 }
 
+.email-input::-webkit-input-placeholder{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.email-input::-moz-placeholder{
+    color: #FFFFFF;
+    font-size: 15px;
+}
 
 .search-bar{
     padding-left: 15px;
-  }  
+}
+
 .logo{
     text-indent: -99999em;
     background: url("../images/DIG-0006-18-PERTO-HOME-LY_03.jpg")no-repeat;
     margin:6px 10px;
 }
+
 nav.menu li:hover{
     text-align: center;
     padding: 2px;
@@ -127,95 +150,103 @@ nav.menu li:hover{
     align-content: center;
 }
 
-
-.news-box div:hover{
+.news-box div:hover, figure:hover{
     background-color: lightgray;
     cursor: pointer;
     color: white;
-    }
+}
+
 figure {
     background: #f9f9f9;
     align-content: center;
 }
+
 .materia-foto {
     margin-bottom: 1px;
     margin-top: 7px;
     padding-right: 0px;
-
 }
+
 .news-part{
     bottom: 10px;
 }
+
 .container-news h3{
     padding-right: 20px;
     font-size: 38px;
     color: #4278b6;
     font-style: italic;
-    font-weight: 50px;
+    font-weight: 100;
     padding-top: 12px;
-
 }
+
 .container-news p{
     padding-top: 12px;
 }
 
-}
 .container-news {
     align-items: center;
-
 }
+
 .container-load{
     font-style: italic;
-    font-color:grey;
-    font-weight: 13px;
+    color:gray;
+    font-size: 13px;
     text-align: center;
 }
 
 .news-box {
     padding: 2px 31px 0px 0px ;
 }
- .content-news {
+
+.content-news {
     margin-bottom: 0px;
     min-height: 127px;
- }
+}
+
 .row-news {
     display: flex;
     flex-wrap:nowrap;
     border-bottom: 2px lightblue solid;
 }
+
 .row-news:hover  {
     background-color: #f2f2f2;
     cursor: pointer;
     color:#fff;
-
 }
+
 .row-news span{
     font-weight: bold;
     font-size: 11px;
 }
+
 .content-news h3 {
     padding: 30px 0 10px 20px;
     font-size: 11px;
     font-weight:bold;
     color: black;
 }
+
 .content-news p{
     padding: 10px 0 10px 20px;
     font-size: 11px;
     color: #484847;
 }
+
 .content-news a{
     color: black;
     font-size:13px;
     text-decoration:none; 
 }
+
 .news-highlight{
     font-size: 15px;
     padding-bottom: 36px;
     color: #696868;
     text-transform: uppercase;
-    font-weight: 10px;
 }
+
 .load {
     background: transparent;
     border: solid 1px #ccc;
@@ -224,12 +255,14 @@ figure {
     color: #ccc;
     margin: 25px 0;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
 }
+
 .load:hover {
     background-color: gray;
+    color: #fff;
 }
-
-
 
 /*NEWSLETTER RODAPE*/
 .bg-newsletter {
@@ -237,16 +270,19 @@ figure {
     height: 165px;
     background: url("../images/DIG-0006-18-PERTO-HOME-LY_25.png") no-repeat;
 }
+
 .email{
     font-weight: bold;
     color: white;
     padding-top: 35px;
 }
+
 .email-p{
     font-weight: bold;
     color: white;
     padding-top: 16px;
 }
+
 .form-newsletter .eml-input{
     padding-top: 60px;
 }
@@ -280,70 +316,70 @@ figure {
 }
 
 /*menu do foooter */
-
 .menu-foot ul a{
     text-decoration: none;
-    line-height: 19px;
+    line-height:  1.42857px;
     color:#484847;
-  
-
 }
-.menu-foot ul{
 
+.menu-foot ul{
     list-style: none;
 }
+
 .menu-left-1{
     padding-left: 0px;
     display:block;
     float: left;
 }
+
 .menu-left-2{
     padding-right:133px;
     display:block;
     float: right;
 }
+
 .menu-foot h3{
     padding-left: 0px;
-    padding-bottom: 22px;
+    padding-bottom: 16px;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: 900;
     padding-top:30px;
 }
+
 .menu-center-1{
     padding-left: 0px;
     padding-right: 35px;
     display:block;
     float: left;
 }
-.menu-center-2{
-    
+
+.menu-center-2{    
     display:block;
     float: right;
 }
+
 .menu-right-1{
-    padding-left: 30px;
+    padding-left: 16px;
     padding-right: 4px;
     display:block;
-    float: left;
- 
+    float: left; 
 }
-.menu-right-2{
-    
+
+.menu-right-2{    
     display:block;
     float: right;
 }
+
 .barrr{
     padding:2px;
 }
 
-.slick-prev
-{
+.slick-prev{
     left: 25px;
-    z-index: 99;
+    z-index: 9;
 }
 
-.slick-next
-{
+.slick-next{
     right: 25px;
-    z-index: 99;
+    z-index: 9;
 }
