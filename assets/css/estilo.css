@@ -193,6 +193,7 @@ figure {
     color:gray;
     font-size: 13px;
     text-align: center;
+
 }
 
 .news-box {
@@ -383,3 +384,28 @@ figure {
     right: 25px;
     z-index: 9;
 }
+
+
+@media (max-width: 768px){
+    .adjusts {
+        display: none;
+    }
+    .materia-foto{
+        text-align: center;
+    }
+    .news-box{
+        padding:0;  
+    }
+    .content-news{
+        margin:auto; 
+        text-align: center;
+    }
+    .form-newsletter .email-input{
+        width: 170px;
+    }
+    .form-newsletter .btn-send-register{
+        margin-left: 0;
+    }
+}
+
+    
