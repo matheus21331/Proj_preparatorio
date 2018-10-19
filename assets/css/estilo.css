@@ -36,9 +36,8 @@ title{
 }  
 
 .links{    
-    padding-left: 734px;
+    padding-left: 714px;
     display: inline-block;
-    float: right;
     margin: 0;
 }
 
@@ -384,8 +383,7 @@ figure {
     right: 25px;
     z-index: 9;
 }
-
-
+/* RESPONSIVO */
 @media (max-width: 768px){
     .adjusts {
         display: none;
@@ -401,10 +399,45 @@ figure {
         text-align: center;
     }
     .form-newsletter .email-input{
-        width: 170px;
+        width:64%;
+        margin-bottom: 5px;
+       
+    }
+    .form-newsletter .eml-input{
+        padding-top:0;
     }
     .form-newsletter .btn-send-register{
         margin-left: 0;
+        padding: 5px 52px;
+    }
+    .links{
+        padding-left: 141px;
+    }
+    .email-p{
+        padding-top: 0px;
+    }
+    .respon {
+        text-align: center;
+    }
+    .respon label{
+        display: none;
+    }
+
+    .menu-link {
+        padding-left: 19px;
+        margin: 0;
+    }
+    .email{
+        padding: 0;
+    }
+    .letter{
+        padding-top: 22px;
+        text-align: justify;
+        line-height: 10px;
+        margin-bottom: 18px;
+    }
+    .letter h3{
+        margin-top: 30px;
     }
 }
 
