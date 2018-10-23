@@ -9,15 +9,21 @@
         <link rel="stylesheet" type="text/css" href="assets/css/estilo.css"/>
     </head>
     <body>   
-        <header>
+        <header class="sticky-top head">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                        <nav class="menu-top">
+                    <nav class="menu-top">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                             <ul class="menu-link">
-                                <li><a href="#">Grupo Digcicon</a></li>
-                                <li><a href="#">Perto</a></li>
-                                <li><a href="#">Digicon</a></li>  
+                                <li>
+                                    <a href="#">Grupo Digcicon</a>
+                                </li>
+                                <li>
+                                    <a href="#">Perto</a>
+                                </li>
+                                <li>
+                                    <a href="#">Digicon</a>
+                                </li>  
                                 <div class="links"> 
                                     <li class="menu-lang">PT
                                         <ul >
@@ -27,37 +33,111 @@
                                     </li>
                                 </div>
                             </ul>
-                        </nav>
-                    </div>    
+                        </div>    
+                    </nav>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <h1 class="logo">Perto</h1>
+            <div class="container col-12 col-sm-12 show-bug hidden-lg">
+                <h3 class="logo">logginho</h3>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">Menu</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Varejo <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Instituições Financeiras</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Transporte de Passageros</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#">Estacionamento</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                          </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Mais...
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Sobre</a>
+                                  <a class="dropdown-item" href="#">Seja um revendedor</a>
+                                  <a class="dropdown-item" href="#">Encontre um revendedor </a>
+                                  <a class="dropdown-item" href="#">Suporte</a>
+                                  <a class="dropdown-item" href="#">Encontre uma autorizada </a>
+                                  <a class="dropdown-item" href="#">Ir para a loja </a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </nav>
+                </nav>
+            </div>
+            <div class="container hidden-bug hidden-xs">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <h1 class="logo">Perto</h1>
+                    </div>     
                     <div class="col-md-10 lists">
                         <nav class="menu">
                             <ul class="main-drop-menu"> 
                                 <div class="links-2">
-                                    <li class="menu-lang-2"><a href="#">Menu</a>
+                                    <li class=" menu-lang-2"><a href="#">Menu</a>
                                         <ul>
-                                            <li>Sobre</li>
-                                            <li>Suporte</li>
-                                            <li>Encontre um revendedor </li>
-                                            <li>Seja um revendedor</li>
-                                            <li>Seja uma autorizada</li>
-                                            <li>Ir para Loja</li>
+                                            <li>
+                                                <a href="#">Sobre</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Suporte</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Encontre um revendedor</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Seja um revendedor</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Seja uma autorizada</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ir para Loja</a>
+                                            </li>
                                         </ul>
                                     </li>
                                 </div> 
                                 <div class="adjusts">
-                                    <li><a href="#">Varejo</a></li>
-                                    <li><a href="#">Instituiçoes Financeiras</a></li>
-                                    <li><a href="#">Transporte de Passageiros</a></li>
-                                    <li><a href="#">Estacionamento</a></li>
-                                    <li><a href="#">Serviços</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li>
+                                        <a href="#">Varejo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instituiçoes Financeiras</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Transporte de Passageiros</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Estacionamento</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Serviços</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contato</a>
+                                    </li>
                                     <li>
                                         <div class="search-bar">
                                             <input class="searchtype="text" name="txtext" placeholder="Busca...">
@@ -93,7 +173,9 @@
                         <div class="content-news">
                             <h3>Digicon|Serviços</h3>
                             <p>Soluções Digitais são destaques<br>da Perto no CIAB 2017.</p>
-                            <p><a  href="index.html">Leia mais >> </a></p>
+                            <p>
+                                <a  href="index.html"> Leia mais >> </a>
+                            </p>
                         </div>
                     </div>
                    
@@ -104,7 +186,9 @@
                         <div class="content-news">
                             <h3 >Perto|Mobilidade</h3>
                             <p >Torniquetes Digicon melhoram<br>produtividade na Cevalli de Cascavel.</p>
-                            <p><a  href="index.html">Leia mais>></a></p>
+                            <p>
+                                <a  href="index.html"> Leia mais >> </a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 news-box">
@@ -114,7 +198,9 @@
                         <div class="content-news">
                             <h3 >Perto|Serviços</h3>
                             <p>Soluções Digitais são destaques<br> da Perto no CIAB 2017.</p>
-                            <p><a  href="index.html">Leia mais>></a></p>
+                            <p>
+                                <a  href="index.html"> Leia mais >> </a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 news-box">
@@ -124,7 +210,9 @@
                         <div class="content-news">
                             <h3 >Perto|Serviços</h3>
                             <p >Soluções Digitais são destaques<br> da Perto no CIAB 2017.</p>
-                            <p><a  href="index.html">Leia mais>></a></p>
+                            <p>
+                                <a  href="index.html"> Leia mais >> </a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 news-box">
@@ -134,7 +222,9 @@
                         <div class="content-news">
                             <h3>Perto|Serviços</h3>
                             <p >Soluções Digitais são destaques<br> da Perto no CIAB 2017.</p>
-                            <p><a  href="index.html">Leia mais>></a></p>
+                            <p>
+                                <a  href="index.html"> Leia mais >> </a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 news-box">
@@ -205,19 +295,41 @@
                             <nav class="menu-foot">             
                                 <h3>Perto</h3>
                                 <ul class="menu-left-1">
-                                    <li><a href="#">Varejo</a></li>
-                                    <li><a href="#">Instituiçoes Financeiras</a></li>
-                                    <li><a href="#">Transporte de Passageiros</a></li>
-                                    <li><a href="#">Estacionamento</a></li>
-                                    <li><a href="#">Serviços</a></li>
+                                    <li>
+                                        <a href="#">Varejo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instituiçoes Financeiras</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Transporte de Passageiros</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Estacionamento</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Serviços</a>
+                                    </li>
                                 </ul>                           
                                 <ul class="menu-left-2">
-                                    <li><a href="#">Sobre</a></li>
-                                    <li><a href="#">Suporte</a></li>
-                                    <li><a href="#">Enontre um vendedo</a>r</li>
-                                    <li><a href="#">Seja um revendedor</a></li>
-                                    <li><a href="#">Seja uma autorizada</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li>
+                                        <a href="#">Sobre</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Suporte</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Enontre um vendedo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Seja um revendedor</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Seja uma autorizada</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contato</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div> 
@@ -225,15 +337,29 @@
                             <nav class="menu-foot">              
                                 <h3>Digicon</h3>
                                 <ul class="menu-center-1">
-                                    <li><a href="#">Controle de Acesso</a></li>
-                                    <li><a href="#">Mobilidade</a></li>
-                                    <li><a href="#">Aerospaciais</a></li>
+                                    <li>
+                                        <a href="#">Controle de Acesso</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mobilidade</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Aerospaciais</a>
+                                    </li>
                                 </ul>
                                 <ul class="menu-centert-2">
-                                    <li><a href="#">Sobre</a></li>
-                                    <li><a href="#">Enontre um revendedor</a></li>
-                                    <li><a href="#">Reembolso transporte publico</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li>
+                                        <a href="#">Sobre</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Enontre um revendedor</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reembolso transporte publico</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contato</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div> 
@@ -241,10 +367,14 @@
                             <nav class="menu-foot">              
                                 <h3>Grupo Digicon</h3>
                                 <ul class="menu-right-1">
-                                    <li><a href="#">Sobre<span class="barrr"> | </span></a></li>
+                                    <li>
+                                        <a href="#">Sobre<span class="barrr"> | </span></a>
+                                    </li>
                                 </ul>
                                 <ul>
-                                    <li><a href="#">Contato</a></li>
+                                    <li>
+                                        <a href="#">Contato</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>           
@@ -252,7 +382,6 @@
                 </div>
             </div>
         </footer>
-        
         <script type="text/javascript" src="./assets/js/vendor/vendor.js"></script>
         <script type="text/javascript" src="./assets/js/main.js"></script>
     </body>

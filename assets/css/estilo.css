@@ -383,6 +383,14 @@ figure {
     right: 25px;
     z-index: 9;
 }
+.head{
+    background-color: white;
+}
+.navbar{
+    display: none;
+}
+
+
 /* RESPONSIVO */
 @media (max-width: 768px){
     .adjusts {
@@ -439,6 +447,33 @@ figure {
     .letter h3{
         margin-top: 30px;
     }
+    .navbar{
+        display: inline-block;
+    }
+     .hidden-xs {
+        display: none!important
+    }
+    .btn-outline-success{
+        color: black;
+        border-color:black ;
+    }
 }
+@media (min-width: 992px)and (max-width: 1199px) {
+    .hidden-md {
+        display: none !important
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none!important
+    }
 
-    
+}
+@media (min-width: 776px) and (max-width:1198px ){
+    .hidden-bug{
+        display: none!important
+    }
+    .show-bug{
+        display: inline-block!important
+    }
+}
