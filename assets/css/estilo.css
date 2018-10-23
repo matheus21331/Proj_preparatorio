@@ -457,6 +457,16 @@ figure {
         color: black;
         border-color:black ;
     }
+    .btn-outline-success:hover{
+        background-color:#c4c4c4;
+        border-color: black;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .navbar-brand{
+        margin-right: 0;
+    }
 }
 @media (min-width: 992px)and (max-width: 1199px) {
     .hidden-md {
